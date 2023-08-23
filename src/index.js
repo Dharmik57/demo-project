@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FormulaInput from './components/FormulaInput';
+import FormulaInput2 from './components/FormulaInput2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <FormulaInput />
+    {/* <FormulaInput2/> */}
   </React.StrictMode>
 );
 
